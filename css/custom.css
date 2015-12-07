@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto;
+    max-width: 1024px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+    height: 50px;
+    line-height: 50px;
+    width: 45px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding-right: 12px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 1000px;
+    height: 666px;
+}
+
+.titleArea {
+    position: relative;
+    top: 480px;
+    padding: 18px;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #854;
+}
+
+.titleArea > h2 {
+    font-size: 2.4em;
+}
+
+.slide {
+    height: 666px;
+}
+
+#wrapper {
+    width: 1000px;
+    height: 900px;
+    overflow: hidden
+}
+
+#slide0 {
+    display: block;
+}
+
+#slide1 {
+    display: none;
+}
+
+#slide2 {
+    display: none;
+    margin-left: -35px;
+}
+
+#slide3 {
+    display: none;
+}
+
+#slide4 {
+    display: none;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif, 'Helvetica';
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#btn0 {}
+
+#btn1 {}
+
+#btn2 {}
+
+#btn3 {}
+
+#btn4 {}
+
+#prev,
+#next {
+    float: right;
+}
